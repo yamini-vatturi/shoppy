@@ -1,0 +1,61 @@
+body{
+    background-image: url(cyan-background-6fw790ul2i88r3o5.jpg);
+    background-size: cover;
+}
+h1{
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:70px;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;   
+}
+ul li{
+    display:inline;
+    margin-left: 20px;
+    text-align: center;
+}
+.one{
+    text-align:right;
+}
+*{
+    box-sizing: border-box;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px; 
+    background-color:beige;
+}
+.foot ul{
+    display:grid;
+}
+.nav{
+    background-color:beige;
+    text-align:left;
+    padding: 1px;
+    justify-content: space-between;
+}
+.cart{
+    text-align: right;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    justify-content: space-around;
+}
+.cart1{
+    text-align:left;
+}
